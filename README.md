@@ -1,34 +1,36 @@
 Chiron Sans HK Pro (昭源黑體 Pro)
 ==================
 
+[中文版說明 Chinese README](README.zh.md)
+
 ## Overview
 
 > TL;DR: Chiron Sans HK + Source Sans 3 = Chiron Sans HK Pro
 
-_Chiron Sans HK Pro_ (昭源黑體 Pro) is a sans-serif CJK typeface. Build upon [Chiron Sans HK (昭源黑體)](https://github.com/tamcy/chiron-sans-hk), it incorporates the entire character set found in [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro/).
+_Chiron Sans HK Pro_ (昭源黑體 Pro) is a sans-serif CJK typeface. Build upon [Chiron Sans HK (昭源黑體)](https://github.com/chiron-fonts/chiron-sans-hk), it incorporates the entire character set found in [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro/).
 
 _Chiron Sans HK_ is modified from the Traditional Chinese – Hong Kong variant of _Source Han Sans_. It aims to provide a modern, region-agnostic glyph set adopting the “written” style that is similar to the prevailing, usually commercial, typefaces such that it is suitable for use in a Traditional Chinese environment. While the Latin, Latin-like, Greek, and Cyrillic (LGC) glyphs of _Source Han Sans_ (and thus _Chiron Sans HK_, they are mostly identical in terms of non-ideographic characters) are derived from _Source Sans Pro_, it has a fairly limited coverage due to the technical limitation on the maximum number of glyphs allowed in a single font file. Not much space can be reserved for non-CJK characters because of the multi-language and pan-CJK nature of _Source Han Sans_. Thus, it is possible for characters covered by _Source Sans Pro_ to be found missing in _Source Han Sans_, as shown in the following sample:
 
-![Sample text in Source Sans Pro](images/source-sans-pro-sample.png "Sample text in Source Sans Pro")
+![Sample text in Source Sans Pro](doc/source-sans-pro-sample.png "Sample text in Source Sans Pro")
 
-![Missing characters in Source Han Sans](images/source-han-sans-missing-chars-sample.png "Missing characters in Source Han Sans")
+![Missing characters in Source Han Sans](doc/source-han-sans-missing-chars-sample.png "Missing characters in Source Han Sans")
 
 Unfortunately, using _Source Sans Pro_ as a fallback to _Source Han Sans_ is not a solution. This is because the LGC glyphs in _Source Sans Pro_ have been manipulated to harmonize with the other parts of _Source Han Sans_ before integration. The glyphs are scaled and interpolated differently, so mixing the two fonts will not yield any good result:
 
-![Source Han Sans with Source Sans Pro as fallback](images/source-sans-fallback-sample.png "Source Han Sans with Source Sans Pro as fallback")
+![Source Han Sans with Source Sans Pro as fallback](doc/source-sans-fallback-sample.png "Source Han Sans with Source Sans Pro as fallback")
 
 As _Chiron Sans HK_ aims to provide an opinionated version of CJK Ideographs via remapping and redesigning of existing glyphs, non-default CJK glyphs in the font can be removed. This results in around 16,900 glyph spaces (CIDs) being freed up for other uses. _Chiron Sans HK Pro_ takes this opportunity to include the entire glyph set of _Source Sans Pro_ into it.
 
-![Chiron Sans HK Pro Sample](images/chiron-sans-hk-pro-sample.png "Chiron Sans HK Pro Sample")
+![Chiron Sans HK Pro Sample](doc/chiron-sans-hk-pro-sample.png "Chiron Sans HK Pro Sample")
 
 ## Features
 
 _Chiron Sans HK Pro_ offers the following features:
 
 * All the features found in _Chiron Sans HK_ are included:
-  - More than 2,700 remapped glyphs.
-  - More than 1,275 redesigned glyphs.
-  - More than 900 codepoints uncovered by the original _Source Han Sans_.
+  - More than 2,700 remapped ideographs.
+  - More than 1,275 redesigned ideographs.
+  - More than 900 ideographs uncovered by the original _Source Han Sans_.
   - The proportional variant of U+2018 (‘), U+2019 (’), U+201C (“) and U+201D (”) are served by default.
   - `halt`, `vhal`, `palt`, and `vpal` instructions for full-width punctuations have been removed.
 * The entire character set covered by the latest version of Source Sans Pro (version 3).
@@ -60,7 +62,7 @@ _Source Sans Pro_ is very rich in OpenType features. This includes alternate let
 
 ### Additional Stylistic Alternates
 
-Whlie it is mentioned that existing LGC glyphs in _Chiron Sans HK Pro_ are replaced by those in _Source Sans Pro_, special cases do exist. A small number of characters, which are mostly symbols like ▲, ♠, ←, etc., are proportional in _Source Sans Pro_ but appear full-width in _Chiron Sans HK_ or _Source Han Sans_ because people using a Chinese typeface would mostly prefer these glyphs be rendered in full-width. For these glyphs it would be inappropriate to blindly replacing them with the proportional version. Thus the following arrangements:
+While it is mentioned that existing LGC glyphs in _Chiron Sans HK Pro_ are replaced by those in _Source Sans Pro_, special cases do exist. A small number of characters, which are mostly symbols like ▲, ♠, ←, etc., are proportional in _Source Sans Pro_ but appear full-width in _Chiron Sans HK_ or _Source Han Sans_ because people using a Chinese typeface would mostly prefer these glyphs be rendered in full-width. For these glyphs it would be inappropriate to blindly replacing them with the proportional version. Thus the following arrangements:
 
 #### Full-width as Default
 
