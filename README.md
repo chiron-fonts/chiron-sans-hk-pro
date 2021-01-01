@@ -91,6 +91,7 @@ The following changes are applied for my personal preference:
 1. The single storey version of U+0067 (g) has been made the default form, and the original double storey U+0067 (g) is provided as an alternate form through `ss04` / `cv03`.
 2. The foot of U+0031 (1) has been removed.
 3. The em-centered versions of U+203C (‼), U+2047 (⁇), U+2048 (⁈) and U+2049 (⁉) have been modified such that they now occupy the full-em width, and are served as default. Proportional forms from _Source Sans Pro_ can be accessed via Opentype feature `ss11` or `cv20`.
+4. For U+2E3A (⸺) and U+2E3B (⸻), the Western version will be served by default in _Source Han Sans_ and _Chiron Sans HK_, and the CJK-optimized glyphs can only be accessed via language tagging. Certain applications (like Microsoft Word) does not support language tagging for these codepoints very well. In _Chiron Sans HK Pro_, the CJK-optimized version becomes the default, and their corresponding Western form can be accessed via Opentype feature `ss11` or `cv20`.
 
 ## License
 
