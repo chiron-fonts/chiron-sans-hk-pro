@@ -1,0 +1,23 @@
+{
+  "name": "chiron-sans-hk-pro-webfont",
+  "version": "0.0.1",
+  "description": "Webfont version of Chiron Sans HK Pro, a font specialized for Traditional Chinese environment.",
+  "keywords": [
+    "Traditional Chinese",
+    "webfont",
+    "font",
+    "cjk",
+    "sans-serif",
+    "woff2"
+  ],
+  "homepage": "https://chiron-fonts.github.io/chiron-sans-hk",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiron-fonts/chiron-sans-hk-pro.git"
+  },
+  "author": "Tamcy",
+  "license": "OFL-1.1"
+}
