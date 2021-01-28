@@ -13,7 +13,7 @@ jobs:
                 with:
                     node-version: 12
                     registry-url: https://registry.npmjs.org/
-            -   run: cd build/wefont
+            -   run: cd build/webfont
             -   run: mv npm-package-readme.md README.md
             -   run: npm publish
                 env:
