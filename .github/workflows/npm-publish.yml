@@ -4,6 +4,10 @@ on:
     release:
         types: [ created ]
 
+defaults:
+    run:
+        working-directory: build/webfont
+
 jobs:
     publish-npm:
         runs-on: ubuntu-latest
@@ -13,7 +17,6 @@ jobs:
                 with:
                     node-version: 12
                     registry-url: https://registry.npmjs.org/
-            -   run: cd build/webfont
             -   run: mv npm-package-readme.md README.md
             -   run: npm publish
                 env:
