@@ -1,8 +1,4 @@
-v0.500 (2020/12/??)
+v0.600 (2021/01/30)
 ====
-Upstream versions:
-- Chiron Sans HK: v2.031, built from Source Han Sans v2.002
-- Source Sans Pro: v3.028
-
-Changes:
+- Applied all changes in Chiron Sans HK v2.032.
 - Initial preview release.
