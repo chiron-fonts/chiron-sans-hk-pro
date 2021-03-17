@@ -1,5 +1,5 @@
 {
-    "version": "1.000",
+    "version": "1.001",
     "config": {
         "upstream": {
             "name": "Source Han Sans",
@@ -7,11 +7,11 @@
         }
     },
     "stats": {
-        "additions": 1904,
-        "redesigned": 1291,
-        "remapped": 2719
+        "additions": 1906,
+        "redesigned": 1341,
+        "remapped": 2720
     },
     "webfont": {
-        "count": 30075
+        "count": 30082
     }
 }
