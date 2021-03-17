@@ -22,8 +22,6 @@ The subsetting strategy mostly follows the one employed by Google Font's [Noto S
 
 For usage example, please check the HTML files named after each font weight in the `webfont/demo` directory which prints all supported characters on a single page.
 
-Due to the limitations of CSS support in existing browsers, the same font weight value 400 is used for both **Normal** and **Regular**. You cannot use both weights in the same page.
-
 `webfont` 目錄內載有昭源黑體的網頁字型版 **Chiron Sans HK Pro WS**，以 `WOFF2` 格式封裝。將 `webfont/css` 和 `webfont/woff2` 目錄複裝到你的專案位置然後載入相關的 CSS 檔就即可使用。
 
 網頁字型是 OTF 檔的子集版，涵蓋整個 Big5/HKSCS 字集，其餘為《康熙字典》字頭、粵語專用字等。網頁字型針對繁體中文用途，沒有收錄簡體中文、諺文等文字。
@@ -35,5 +33,3 @@ Due to the limitations of CSS support in existing browsers, the same font weight
 3. 最後，補充 Big5/HKSCS 字集和字集外、本字體有收的非常用漢字（多屬《康熙字典》字頭，也有一些粵語用字）。雖然為數不少，但由於採用了 Unicode-range subsetting，加入這些字符對一般使用者相信影響不大。
 
 目錄內另包含以字重命名的 HTML 檔案，會印出所有網頁字型的覆蓋字元，作為應用示範。
-
-注意：由於目前瀏覽器的 CSS 支援所限，**Normal** 和 **Regular** 的字重數字均設定為 400，同一頁面不能同時使用這兩種字重。
