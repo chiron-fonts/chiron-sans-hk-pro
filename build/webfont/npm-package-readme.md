@@ -41,9 +41,9 @@ Please refer to the following table for the CSS `font-weight` values of differen
 
 | Font Weight | CSS font-weight Value |
 |---|---|
-| ExtraLight | 100 |
+| ExtraLight | 250 |
 | Light | 300 |
-| Normal | 370 |
+| Normal | 350 |
 | Regular | 400 |
 | Medium | 500 |
 | Bold | 700 |
