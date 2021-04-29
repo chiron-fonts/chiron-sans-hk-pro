@@ -1,3 +1,8 @@
+v1.003 (2021/04/29)
+====
+- Applied the glyph changes in Chiron Sans HK v2.040.
+- Fixed Normal's font weight value in webfont CSS.
+
 v1.002 (2021/04/15)
 ====
 - Applied the glyph changes in Chiron Sans HK v2.035.
