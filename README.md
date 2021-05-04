@@ -29,16 +29,16 @@ _Chiron Sans HK Pro_ offers the following features:
 
 * The following features found in _Chiron Sans HK_ are included:
   - More than 2,700 remapped ideographs.
-  - More than 1,300 redesigned ideographs.
+  - More than 1,600 redesigned ideographs.
   - More than 1,000 ideographs uncovered by the original _Source Han Sans_.
   - The proportional variant of U+2018 (‘), U+2019 (’), U+201C (“) and U+201D (”) are served by default.
   - `halt`, `vhal`, `palt`, and `vpal` instructions for full-width punctuations have been removed.
-* The entire character set covered by the latest version of Source Sans Pro (version 3).
-* OpenType features in the original _Source Sans Pro_ are preserved.
+* The entire character set covered by the latest version of _Source Sans Pro_ (version 3).
+* OpenType features in the original _Source Sans Pro_ font.
 
 ## Installation
 
-Installable font resources can be found in the `build/` directory. It contains the OpenType/CFF (OTF) font resources in 7 weights.
+Installable font resources can be found in the `build/` directory. It contains the OpenType/CFF (OTF) font resources in 7 weights and a OpenType/CFF2 variable font version.
 
 Note that the _ExtraLight_ instance of the font has been renamed to _ExtraLt_ to circumvent the font menu name character limit on Windows.
 

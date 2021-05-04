@@ -7,7 +7,9 @@ This package provides the webfont version of [Chiron Sans HK Pro (昭源黑體 P
 
 Similar to Chiron Sans HK, Chiron Sans HK Pro is a CJK typeface derived from the Source Han Sans / Noto Sans CJK font family. Its goal is to provide a modern, region-agnostic glyph set adopting the “written” style that is similar to the prevailing, usually commercial, typefaces such that it is suitable for use in a Traditional Chinese environment. While Chiron Sans HK provides exactly the same amount of Latin, Greek and Cyrillic (LGC) characters as in Source Han Sans, Chiron Sans HK Pro integrates the entire glyph set of Source Sans 3 into it, thus providing an even richer coverage of LGC characters and symbols.   
 
-Chiron Sans HK Pro comes with two configurations: OpenType/CFF (OTF) and webfont version in WOFF File Format 2.0 (WOFF2) format. The webfont version utilizes Unicode-range subsetting technology which allows the browser to only download the subset(s) of the font it needs on a page. This means reduced download sizes and improved loading performance. This package contains only the webfont configuration (i.e. the CSS files and WOFF 2.0 font resources) for easy self-hosting.
+Chiron Sans HK Pro comes with three configurations: OpenType/CFF (OTF), OpenType/CFF2 (OTF) variable font, and webfont version in WOFF File Format 2.0 (WOFF2) format. The webfont version utilizes Unicode-range subsetting technology which allows the browser to only download the subset(s) of the font it needs on a page. This means reduced download sizes and improved loading performance. This package contains only the webfont configuration (i.e. the CSS file and WOFF 2.0 font resources) for easy self-hosting.
+
+Check out the [official website (Chinese only)](https://chiron-fonts.github.io/sans/) for usage example.
 
 ## Usage
 
@@ -17,16 +19,10 @@ First, install this package:
 npm install chiron-sans-hk-pro-webfont 
 ```
 
-To use the font, import the CSS file of the desired font weights in the `css/` directory. For instance, if you use [webpack](https://webpack.js.org/), you would import the font's CSS files with the following statements (just import the weights you want to use): 
+Include the `css/vf.css` file in your web page to start using it. For instance, if you use [webpack](https://webpack.js.org/), you would import the font's CSS file with the following statement: 
 
 ```css
-@import '~chiron-sans-hk-pro-webfont/css/ExtraLight.css';
-@import '~chiron-sans-hk-pro-webfont/css/Light.css';
-@import '~chiron-sans-hk-pro-webfont/css/Normal.css';
-@import '~chiron-sans-hk-pro-webfont/css/Regular.css';
-@import '~chiron-sans-hk-pro-webfont/css/Medium.css';
-@import '~chiron-sans-hk-pro-webfont/css/Bold.css';
-@import '~chiron-sans-hk-pro-webfont/css/Heavy.css';
+@import '~chiron-sans-hk-webfont/css/vf.css';
 ```
 
 Now you can access this font by specifying the `Chiron Sans HK Pro WS` font family in your stylesheet. For instance:
@@ -37,7 +33,7 @@ body {
 }
 ```
 
-Please refer to the following table for the CSS `font-weight` values of different font weights:
+The table below shows the corresponding `font-weight` values of the default static font weights. Since this is a variable font, you can also specify any value between 250 and 900 to the `font-weight` property.
 
 | Font Weight | CSS font-weight Value |
 |---|---|

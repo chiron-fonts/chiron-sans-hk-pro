@@ -1,3 +1,9 @@
+v1.005 (2021/05/04)
+====
+- Added a new variable font (VF) configuration. The font name for this configuration is **Chiron Sans HK Pro VF**.
+- The web font configuration is now served in variable font format.
+- Static fonts are now built from the variable font format. Because of this change in workflow, the scale of LGC glyphs in the intermediate weights (Light, Normal, Regular, Medium, Bold) is slightly different from previous versions.
+
 v1.003 (2021/04/29)
 ====
 - Applied the glyph changes in Chiron Sans HK v2.040.
