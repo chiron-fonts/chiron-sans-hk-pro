@@ -14,7 +14,7 @@ variable
 
 This directory contains the OpenType/CFF2 (OTF) variable font resource, users can select an arbitrary font weight between the ExtraLight and Heavy instances.
 
-The font family name for this configuration is **Chiron Sans HK Pro VF**. It can be installed alongside with the static OTF configuration.
+The font family name for this configuration is **Chiron Sans HK Pro VF**. It can be installed alongside the static OTF configuration.
 
 Note that this configuration requires a system and/or application that supports OpenType/CFF2 variable font format.
 

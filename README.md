@@ -38,7 +38,7 @@ _Chiron Sans HK Pro_ offers the following features:
 
 ## Installation
 
-Installable font resources can be found in the `build/` directory. It contains the OpenType/CFF (OTF) font resources in 7 weights and a OpenType/CFF2 variable font version.
+Installable font resources can be found in the `build/` directory. It contains the OpenType/CFF (OTF) font resources in 7 weights and a OpenType/CFF2 variable font version for desktop use. There is also a webfont build for use on websites.
 
 Note that the _ExtraLight_ instance of the font has been renamed to _ExtraLt_ to circumvent the font menu name character limit on Windows.
 
