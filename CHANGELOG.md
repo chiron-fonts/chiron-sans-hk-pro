@@ -1,3 +1,8 @@
+v1.006 (2021/05/27)
+====
+- Applied the glyph changes in Chiron Sans HK v2.041.
+- Added a new experimental italic build (OTF, variable OTF, and webfont). LGC glyphs are adapted from the actual italic version of Source Sans 3, others are slanted form of the the roman glyphs.
+
 v1.005 (2021/05/04)
 ====
 - Added a new variable font (VF) configuration. The font name for this configuration is **Chiron Sans HK Pro VF**.
