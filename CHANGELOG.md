@@ -1,3 +1,8 @@
+v1.007 (2021/06/29)
+====
+- Applied the glyph changes in Chiron Sans HK v2.042.
+- Source Sans 3 integrated glyphs updated to v3.042.
+
 v1.006 (2021/05/27)
 ====
 - Applied the glyph changes in Chiron Sans HK v2.041.

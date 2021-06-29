@@ -19,10 +19,11 @@ First, install this package:
 npm install chiron-sans-hk-pro-webfont 
 ```
 
-Include the `css/vf.css` file in your web page to start using it. For instance, if you use [webpack](https://webpack.js.org/), you would import the font's CSS file with the following statement: 
+Include the `css/vf.css` file in your web page to start using it. You may also include `css/vf-italic.css` for the italic style of the typeface. For instance, if you use [webpack](https://webpack.js.org/), you would import the font's CSS files with the following statements:
 
 ```css
 @import '~chiron-sans-hk-webfont/css/vf.css';
+@import '~chiron-sans-hk-webfont/css/vf-italic.css';
 ```
 
 Now you can access this font by specifying the `Chiron Sans HK Pro WS` font family in your stylesheet. For instance:
