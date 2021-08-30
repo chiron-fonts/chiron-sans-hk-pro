@@ -1,3 +1,7 @@
+v1.009 (2021/08/30)
+====
+- Applied the glyph changes in Chiron Sans HK v2.044.
+
 v1.008 (2021/08/07)
 ====
 - Applied the glyph changes in Chiron Sans HK v2.043.
