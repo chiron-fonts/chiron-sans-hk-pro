@@ -12,11 +12,15 @@ This directory contains the OpenType/CFF (OTF) font resources in seven weights. 
 variable
 ========
 
+**⚠ WARNING: As of the date of this release, Windows 10/11 is still problematic in handling the CFF2 Variable Font format adopted by this typeface. Until this is fixed, DO NOT install the variable font format (ChironSansHKVF.otf) if you are using Windows 10/11. While you can install it, Windows font engine will crash whenever the font is accessed. A reboot is required when this happens.**
+
 This directory contains the OpenType/CFF2 (OTF) variable font resource, users can select an arbitrary font weight between the ExtraLight and Heavy instances.
 
 The font family name for this configuration is **Chiron Sans HK Pro VF**. It can be installed alongside the static OTF configuration.
 
 Note that this configuration requires a system and/or application that supports OpenType/CFF2 variable font format.
+
+**⚠️ 注意：Windows 10/11 目前不能正確處理本字體所使用的 CFF2 可變字型格式。在 Microsoft 修復此問題之前，使用者切勿在 Windows 10/11 安裝可變式可型版本（ChironSansHKVF.otf）。雖然字體能正常安裝，使用者存取字型時卻會導致系統字型引擎崩潰而必須重新開機。**
 
 本目錄包含 OpenType/CFF2 (OTF) 可變式字型 (Variable Font)。使用者可任意揀選 ExtraLight 和 Heavy 之間的字重值。
 

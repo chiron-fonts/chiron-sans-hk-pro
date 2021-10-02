@@ -1,3 +1,8 @@
+v1.010 (2021/10/02)
+====
+- Applied the glyph changes in Chiron Sans HK v2.045.
+- Fixed mapping for U+02ED.
+
 v1.009 (2021/08/30)
 ====
 - Applied the glyph changes in Chiron Sans HK v2.044.
