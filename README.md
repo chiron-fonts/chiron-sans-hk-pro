@@ -1,6 +1,12 @@
 Chiron Sans HK Pro (昭源黑體 Pro)
 ==================
 
+### ⚠️ Important Notice ⚠️
+
+**This project is superseded by [Chiron Hei HK](https://github.com/chiron-fonts/chiron-hei-hk), and will no longer be maintained. Check out the [Chiron Font website](https://chiron-fonts.github.io/technical-details/chiron-sans-fonts-differences/) (in Chinese) for the details behind this move.**
+
+---
+
 [中文版說明 Chinese README](README.zh.md)
 
 ## Overview

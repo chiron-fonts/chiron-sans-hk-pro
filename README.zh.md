@@ -1,6 +1,12 @@
 昭源黑體 Pro (Chiron Sans HK Pro)
 ==================
 
+** ⚠️ 重要吿示⚠️ **
+
+本專案已為[昭源黑體 Chiron Hei HK](https://github.com/chiron-fonts/chiron-hei-hk) 所取代（留意英文名稱並不相同），箇中原委[昭源字體網站](https://chiron-fonts.github.io/technical-details/chiron-sans-fonts-differences/)已有交代。此後更新將會在該專案繼續。
+
+---
+
 [English README 英文版說明](README.md)
 
 ## 關於本字體
